@@ -1,0 +1,492 @@
+body {
+    padding: 1% 4%;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+
+    box-sizing: border-box;
+    justify-content: right;
+    float: right;
+}
+
+i {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+p {
+    color: #3BBADB;
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #008AAA;
+}
+
+a:hover,
+i:hover {
+    color: #D1884F;
+}
+
+span {
+    color: #D1884F;
+}
+
+img {
+    border-bottom-left-radius: 50%;
+    float: right;
+    box-shadow: -20px 10px 5px -5px lightblue;
+}
+
+
+h1 {
+    color: #008AAA;
+    font-size: 60px;
+    width: 50%;
+}
+
+.text {
+    height: 50px;
+    overflow: hidden;
+    padding-top: -20px;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+label {
+    color: #3BBADB;
+    position: absolute;
+    top: 100%;
+}
+
+input {
+    display: none;
+}
+
+label:after {
+    content: "See More..";
+}
+
+input:checked+label:after {
+    content: "See Less";
+}
+
+input:checked~div {
+    height: 100%;
+}
+
+.buttons-section {
+    padding-top: 100px;
+    margin-top: 100px;
+    float: left;
+}
+
+.hire-button {
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #f9fafa;
+    background-color: #008AAA;
+    border: #008AAA;
+    box-shadow: 2px 4px 5px #69abba;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.project-button {
+    margin-top: 50px;
+    border-radius: 5px;
+    color: #008AAA;
+    background-color: #ffffff;
+    border: solid 1px #008AAA;
+    box-shadow: 2px 2px 5px;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        font-size: 14px;
+        justify-content: center;
+        float: none;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    i {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .hire-button {
+        height: 35px;
+        width: 150px;
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+
+    .project-button {
+        margin-top: 30px;
+        height: 35px;
+        width: 160px;
+        font-size: 20px;
+        margin-left: 45px;
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 376px) and (min-width: 321px) {
+    header {
+        font-size: 16px;
+        justify-content: center;
+        float: none;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    i {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 20px;
+    }
+
+
+    .project-button {
+        margin-top: 30px;
+        height: 35px;
+        width: 160px;
+        font-size: 20px;
+        margin-left: 45px;
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 426px) and (min-width: 376px) {
+    header {
+        font-size: 18px;
+        justify-content: center;
+        float: none;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    p {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    i {
+        padding-left: 10px;
+        padding-right: 6px;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .hire-button {
+        margin-left: 85px;
+    }
+
+    .project-button {
+        margin-top: 30px;
+        height: 35px;
+        width: 160px;
+        font-size: 20px;
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 426px) {
+    header {
+        justify-content: center;
+        float: none;
+        margin: 1px 0px;
+    }
+
+    img {
+        width: 75%;
+        margin-top: 5px;
+    }
+
+    p {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    i {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    h1 {
+        font-size: 35px;
+        width: 90%;
+    }
+
+    .text {
+        height: 50px;
+        overflow: hidden;
+        width: 90%;
+        font-size: 20px;
+        padding-top: -20px;
+    }
+
+    .hire-button {
+
+        height: 35px;
+        width: 100px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .project-button {
+        margin-top: 50px;
+        height: 35px;
+        width: 150px;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    img {
+        width: 50%;
+
+    }
+
+    .text {
+
+        width: 90%;
+        padding-top: 13px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    header {
+        box-sizing: border-box;
+        justify-content: right;
+        float: right;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    .text {
+        width: 60%;
+        padding-top: 13px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    header {
+        font-size: 20px;
+        margin-right: 0%;
+        box-sizing: border-box;
+        justify-content: right;
+        float: right;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .text {
+        width: 60%;
+        padding-top: 20px;
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .hire-button {
+
+        height: 40px;
+        width: 150px;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-right: 30px;
+    }
+
+    .project-button {
+        margin-top: 50px;
+        height: 40px;
+        width: 200px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1441px) {
+    header {
+        font-size: 27px;
+        margin-right: 1%;
+        box-sizing: border-box;
+        justify-content: right;
+        float: right;
+    }
+
+    img {
+        margin-top: 80px;
+        width: 30%;
+    }
+
+    .text {
+        width: 60%;
+        padding-top: 20px;
+        font-size: 30px;
+        height: 65px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    .hire-button {
+        height: 45px;
+        width: 170px;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+
+    .project-button {
+        margin-top: 80px;
+        height: 45px;
+        width: 230px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 2559px) {
+    header {
+        font-size: 40px;
+        margin-right: 1%;
+        box-sizing: border-box;
+        justify-content: right;
+        float: right;
+    }
+
+    img {
+        margin-top: 80px;
+        width: 30%;
+    }
+
+    .text {
+        width: 60%;
+        padding-top: 50px;
+        font-size: 50px;
+        height: 125px;
+    }
+
+    label {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 70px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    .hire-button {
+        height: 65px;
+        width: 270px;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+
+    .project-button {
+        margin-top: 120px;
+        height: 65px;
+        width: 400px;
+        font-size: 50px;
+    }
+}
